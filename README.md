@@ -1,7 +1,3 @@
-অবশ্যই। এবার তোমার **actual completed work + key findings + business recommendations + Python → MySQL → SQL → Power BI workflow** সব একসাথে রেখে একটা polished README দিলাম।
-
-**নিচের পুরোটা সরাসরি `README.md`-তে copy-paste করো।**
-
 ````markdown
 # 🛒 E-Commerce Sales Analysis
 
