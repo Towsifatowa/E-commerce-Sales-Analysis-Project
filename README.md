@@ -43,7 +43,6 @@ The main objectives of this project are to:
 | DAX | Power BI measures |
 | GitHub | Project documentation and version control |
 
----
 
 # 🔄 End-to-End Project Workflow
 
@@ -69,7 +68,7 @@ Power BI
 Interactive Dashboard
         ↓
 Business Insights & Recommendations
-````
+
 
 ### Analytics Pipeline
 
@@ -77,7 +76,6 @@ Business Insights & Recommendations
 
 This workflow demonstrates how raw transaction data can be transformed into actionable business insights.
 
----
 
 # 📊 Dataset
 
@@ -100,7 +98,7 @@ The dataset contains e-commerce transaction-level information.
 | `customer_rating`  | Customer satisfaction rating         |
 | `revenue`          | Revenue generated                    |
 
----
+
 
 # 🧹 1. Data Cleaning with Python
 
@@ -120,23 +118,21 @@ The raw dataset was first loaded and analyzed using Python and Pandas.
 
 ### Date Conversion
 
-```python
+python
 df["order_date"] = pd.to_datetime(df["order_date"])
-```
+
 
 ### Duplicate Removal
 
-```python
+python
 df = df.drop_duplicates()
-```
+
 
 ### Missing Value Check
 
-```python
+python
 df.isnull().sum()
-```
 
----
 
 # 🔎 2. Exploratory Data Analysis (EDA)
 
@@ -154,7 +150,6 @@ The EDA focused on important business areas including:
 
 The EDA helped identify important patterns that were further investigated using SQL and Power BI.
 
----
 
 # 🗄️ 3. MySQL Database
 
@@ -162,31 +157,26 @@ After data preparation, the dataset was loaded into MySQL for deeper business an
 
 ### Database
 
-```text
 ecommerce_sales
-```
+
 
 ### Table
 
-```text
 customer
-```
 
 The database and table were verified using:
 
-```sql
+sql
 use ecommerce_sales;
 
 show tables;
-```
 
----
 
 # 📈 4. SQL Business Analysis
 
 Five major business questions were analyzed using SQL.
 
----
+
 
 ## Q1. What are the total number of orders, total quantity sold, total revenue, and average order value?
 
@@ -204,8 +194,6 @@ from customer;
 ### Business Purpose
 
 This provides an overall view of the company's sales performance.
-
----
 
 ## Q2. Which product category contributes the most to total revenue?
 
