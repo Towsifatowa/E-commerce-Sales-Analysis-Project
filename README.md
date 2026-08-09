@@ -449,7 +449,7 @@ This suggests that the company should continue monitoring demand in high-perform
 
 ### 🌍 Regional Performance
 
-* The **West region** has the strongest revenue performance.
+* The **north region** has the strongest revenue performance.
 * The **East region** has the lowest revenue performance.
 
 This indicates that regional strategies may need to be customized according to local customer behavior and demand.
