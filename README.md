@@ -1,5 +1,5 @@
-````markdown
-# 🛒 E-Commerce Sales Analysis
+
+🛒 E-Commerce Sales Analysis
 
 ## 📌 Project Overview
 
@@ -11,7 +11,6 @@ The goal is to transform raw transaction data into meaningful business insights 
 
 > **How can the company leverage its sales and customer transaction data to identify revenue trends, improve customer satisfaction, and optimize its regional and product strategies?**
 
----
 
 # 🎯 Project Objectives
 
@@ -26,7 +25,7 @@ The main objectives of this project are to:
 - Build an interactive Power BI dashboard
 - Generate actionable business recommendations
 
----
+
 
 # 🛠️ Tools & Technologies
 
@@ -50,7 +49,7 @@ The main objectives of this project are to:
 
 The project follows a complete data analytics workflow:
 
-```text
+
 Raw E-Commerce Dataset
         ↓
 Python
@@ -534,7 +533,7 @@ Discounts could be focused on specific products, customer segments, or campaigns
 
 # 📸 Dashboard Preview
 
-![E-Commerce Sales Performance Dashboard](screenshots/powerbi_dashboard.png)
+!e-commerce analysis sales dashboard.png
 
 ---
 
