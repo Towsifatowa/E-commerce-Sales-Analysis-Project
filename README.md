@@ -521,7 +521,7 @@ Discounts could be focused on specific products, customer segments, or campaigns
 
 # 📸 Dashboard Preview
 
-!e-commerce analysis sales dashboard.png
+![E-Commerce Sales Dashboard](e-commerce%20analysis%20sales%20dashboard.png)
 
 ---
 
